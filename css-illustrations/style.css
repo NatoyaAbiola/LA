@@ -1,0 +1,50 @@
+div {
+  margin: 30px auto;
+  background-color: #008000;
+  height: 50px;
+  width: 50px;
+  border-radius: 500px;
+  }
+
+.branch-1 {
+  position: relative;
+  right: 50px;
+  width: 150px;
+  }
+
+.branch-2 {
+  position: relative;
+  right: 100px;
+  width: 250px;
+  }
+
+.branch-3 {
+  position: relative;
+  right: 150px;
+  width: 350px;
+  }
+
+
+.branch-4 {
+  position: relative;
+  right: 200px;
+  width: 450px;
+  }
+
+.branch-5 {
+position: relative;
+  right: 250px;
+  width: 550px;
+  }
+
+.branch-6 {
+  position: relative;
+  right: 300px;
+  width: 650px;
+  }
+
+.trunk {
+  height: 200px;
+  width: 50px;
+  background-color: brown
+}
