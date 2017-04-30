@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>News Aggregator</title>
+  </head>
+  <body>
+    <h1>Sharing is Caring - Share your story with the world!</h1>
+    <form action="/articles/new" method="post">
+      <div>
+        <label for="article">Enter title:</label>
+        <input type="text" id="article" name="article">
+      </div>
+      <div>
+        <label for="article_url">Enter URL:</label>
+        <input type="url" id="article_url" name="article_url">
+      </div>
+      <div>
+        <label for="article_description">Enter description:</label>
+        <input type="text" id="article_description" name="article_description">
+      </div>
+      <div>
+        <input type="submit">
+      </div>
+    </form>
