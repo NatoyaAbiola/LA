@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Positions</title>
+    <link href="/styles.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <h1>Team Positions</h1>
+<ol>
+  <% @positions.each do|position| %>
+      <li><a href="/positions/<%= positions %>"<%= position %></a></li>
+    <% end %>
+</ol>
+</body>
+
+</html>
