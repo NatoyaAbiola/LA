@@ -1,0 +1,25 @@
+<!-- Put your News Aggregator new.erb code here -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>News Aggregator</title>
+  </head>
+  <body>
+    <h1>Sharing is Caring - Share your story with the world!</h1>
+    <form action="/articles/new" method="post">
+      <div>
+        <label for="title">Enter title:</label>
+        <input type="text" id="title" name="title">
+      </div>
+      <div>
+        <label for="url">Enter URL:</label>
+        <input type="url" id="url" name="url">
+      </div>
+      <div>
+        <label for="description">Enter description:</label>
+        <input type="text" id="description" name="description">
+      </div>
+      <div>
+        <input type="submit">
+      </div>
+    </form>
